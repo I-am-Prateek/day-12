@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background:transparent;
+  background: transparent;
   color: #fff;
 }
 /* Navigation Styling */
@@ -19,15 +19,38 @@ body {
   z-index: 1000000;
   top: 0;
 }
-.navbar-nav{
-    font-size: 1.4rem;
+.navbar-nav {
+  font-size: 1.3rem;
+}
+.logo-control{
+  margin-left: 3rem;
 }
 /* Navbar-ends */
 /* Home-page-styling */
-.main-container{
-    background: purple;
+.main-container {
+ display: flex;
 }
-.left-section{
-    background: red;
-    width: 40%;
+.left-section {
+ 
+  width: 60%;
+}
+.first-div h2{
+  font-size: 4rem;
+}
+span{
+  color: white;
+}
+.first-div{
+  padding-left:8rem;
+  padding-top: 15rem;
+  color: #2d2e2f;
+}
+.manage-text p{
+  padding-left:8.5rem;
+  padding-top: 2rem;
+  font-size: 24px;
+  color: #666666;
+}
+.right-section{
+  width: 40%;
 }
