@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "Montserrat";
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background:transparent;
+  color: #fff;
+}
+/* Navigation Styling */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  top: 0;
+}
+.navbar-nav{
+    font-size: 1.4rem;
+}
+/* Navbar-ends */
+/* Home-page-styling */
+.main-container{
+    background: purple;
+}
+.left-section{
+    background: red;
+    width: 40%;
+}
