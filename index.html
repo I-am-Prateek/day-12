@@ -25,20 +25,18 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">Family</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">History</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-
                 </ul>
-                <button></button>
             </div>
         </div>
     </nav>
@@ -75,30 +73,66 @@
         <!-- about page -->
         <section class="about col-md-12" id="about">
             <section class="about-left">
-                <img class="about-control" src="img/profile.jpg" alt="about-img" width="300px" height="300px">
+                <img class="about-control" src="img/3.JPG" alt="about-img" width="300px" height="300px">
             </section>
 
             <section class="about-right">
-                <h2 class="control-about-right">About Me </h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate sit, aperiam, facere in
+                <h2 class="control-about-right"><span>About Me</span></h2>
+                <div class="alert alert-success alert-dismissible">
+                    <button class="btn btn-danger" onclick="myFunction()">Check My Age</button>
+        
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate sit, aperiam, facere in
                     optio eos esse perspiciatis animi dolore, sed reprehenderit commodi dicta debitis molestiae officia
                     ipsa inventore deserunt perferendis ipsam eveniet temporibus neque maiores assumenda. Distinctio
                     assumenda minus corporis, maxime ea doloribus.</p>
 
-                    <h2 class="control-about-right">My-Hobbies </h2>
-                    <div class="hobbies">
-                    <ul class="hobbies-control">
-                        <li>Playing Football</li>
-                        <li>Browsing Internet</li>
-                        <li>Playing Basketball</li>
-                        <li>Watching Movies</li>
-                        <li>Learning Something New</li>
-                    </ul>
-                </div>
             </section>
 
         </section>
+        <!-- next section -->
+        <section class="family col-md-12" id="family">
+            <section class="family-left">
+                <h2 class="control-family-right"><span>About Family</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam cupiditate sit, aperiam, facere in
+                    optio eos esse perspiciatis animi dolore, sed reprehenderit commodi dicta debitis molestiae officia
+                    ipsa inventore deserunt perferendis ipsam eveniet temporibus neque maiores assumenda. Distinctio
+                    assumenda minus corporis, maxime ea doloribus.</p>
+            </section>
+            <section class="family-right">
+                <img class="familiy-control" src="img/family.jpeg" alt="about-img" width="300px" height="300px">
+            </section>
+
+        </section>
+        <!-- Next Section -->
+        <section class="hobbies col-md-12">
+            <h2 class="control-hobbies-right">My-Hobbies </h2>
+            <img class="football-control" src="img/Messi.webp" alt="football" width="250px" height="250px">
+            <div class="hobbies">
+                <h2>Playing Football</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem magni excepturi ab. Id error
+                    quasi culpa reiciendis doloribus, recusandae tempore doloremque voluptatem accusantium cum sit fuga,
+                    laborum illum ab numquam provident, magnam earum. Quo eum aperiam reprehenderit, laboriosam fugit
+                    nisi quis alias culpa.</p>
+            </div>
+        </section>
+        <section class="contactme col-md-12">
+            <div class="contactme-last">
+                <h2>Find Me Here</h2>
+            </div>
+            <iframe class="map-control"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d134909.0510332065!2d87.21992309769!3d27.308750614865545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e8b0d9bad43261%3A0xb61aec7180f4385e!2sChainpur%2056900%2C%20Nepal!5e0!3m2!1sen!2sca!4v1700603491516!5m2!1sen!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="contactme-last">
+
+            </div>
+        </section>
     </section>
+    <script>
+        function myFunction() {
+            alert("I am 22 years old");
+        }
+    </script>
 </body>
 
 </html>
