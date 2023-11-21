@@ -30,6 +30,8 @@ body {
 .main-container {
  display: flex;
 }
+
+/* Left section */
 .left-section {
  
   width: 60%;
@@ -38,11 +40,11 @@ body {
   font-size: 4rem;
 }
 span{
-  color: white;
+  color: rgb(252, 0, 0);
 }
 .first-div{
   padding-left:8rem;
-  padding-top: 15rem;
+  padding-top: 12rem;
   color: #2d2e2f;
 }
 .manage-text p{
@@ -51,6 +53,18 @@ span{
   font-size: 24px;
   color: #666666;
 }
+.buttons-control{
+  padding-left:8rem;
+  padding-top: 2rem;
+}
+/* Right Section */
 .right-section{
   width: 40%;
+}
+.right-img{
+  padding-top: 6rem;
+}
+.right-img .profile-control{
+  border-radius:2%;
+  box-shadow: indigo;
 }
