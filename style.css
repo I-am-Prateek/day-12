@@ -22,49 +22,124 @@ body {
 .navbar-nav {
   font-size: 1.3rem;
 }
-.logo-control{
+.logo-control {
   margin-left: 3rem;
 }
 /* Navbar-ends */
 /* Home-page-styling */
 .main-container {
- display: flex;
+  width: 100%;
+  height: auto;
+}
+.home-section{
+  display: flex;
+
 }
 
 /* Left section */
 .left-section {
- 
   width: 60%;
 }
-.first-div h2{
+.first-div h2 {
   font-size: 4rem;
 }
-span{
+.first-div .home-page{
+  opacity: 0;
+  animation: slidebottom 1s ease forwards;
+  animation-delay: 0.7s;
+}
+span {
   color: rgb(252, 0, 0);
 }
-.first-div{
-  padding-left:8rem;
+.first-div {
+  padding-left: 8rem;
   padding-top: 12rem;
   color: #2d2e2f;
 }
-.manage-text p{
-  padding-left:8.5rem;
+.manage-text p {
+  padding-left: 8.5rem;
   padding-top: 2rem;
   font-size: 24px;
   color: #666666;
+  opacity: 0;
+  animation: slideright 1s ease forwards;
+  animation-delay: 0.7s;
 }
-.buttons-control{
-  padding-left:8rem;
+/* keyframe animation */
+@keyframes slideright {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slidebottom {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.buttons-control {
+  padding-left: 8rem;
   padding-top: 2rem;
 }
+.buttons-control .btn{
+  background: rgb(50, 49, 49);
+}
+
 /* Right Section */
-.right-section{
+.right-section {
   width: 40%;
 }
-.right-img{
+.right-img {
   padding-top: 6rem;
 }
-.right-img .profile-control{
-  border-radius:2%;
-  box-shadow: indigo;
+.right-img .profile-control {
+  border-radius: 2%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* About styling */
+.about{
+  display: flex;
+  
+  height: 100%;
+}
+.second{
+  background: red;
+}
+.about-left{
+  width: 30%;
+  margin-top: 7rem;
+  margin-left:8rem
+}
+.about-right{
+  width: 60%;
+}
+.about-control{
+  border-radius: 50%;
+  border: 2px solid red;
+}
+.about-right{
+margin-left: 28vw;
+margin-top: 5rem;
+}
+.about-right .control-about-right{
+  text-decoration: underline;
+}
+.about-right p{
+margin-top: 23px;
+}
+.hobbies-control{
+ font-size: 20px;
+}
+.hobbies{
+  margin-top: 12px;
 }
